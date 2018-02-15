@@ -10,6 +10,8 @@
 		1E159B812035EA1E001B9FD6 /* BantuDicoClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E159B772035EA1E001B9FD6 /* BantuDicoClient.framework */; };
 		1E159B862035EA1E001B9FD6 /* BantuDicoClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B852035EA1E001B9FD6 /* BantuDicoClientTests.swift */; };
 		1E159B882035EA1E001B9FD6 /* BantuDicoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E159B7A2035EA1E001B9FD6 /* BantuDicoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5535BC7CC82F153CB1FC2B23 /* Pods_BantuDicoClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE709C6A70075B3D5A77D667 /* Pods_BantuDicoClientTests.framework */; };
+		7D690009507AC0232BA7C48D /* Pods_BantuDicoClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048962C631B68F3A8A00152 /* Pods_BantuDicoClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,12 @@
 		1E159B802035EA1E001B9FD6 /* BantuDicoClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BantuDicoClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E159B852035EA1E001B9FD6 /* BantuDicoClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuDicoClientTests.swift; sourceTree = "<group>"; };
 		1E159B872035EA1E001B9FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CE86E9BDE04E5D468A0839 /* Pods-BantuDicoClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		3695F89FD6546EB38A849377 /* Pods-BantuDicoClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClient/Pods-BantuDicoClient.release.xcconfig"; sourceTree = "<group>"; };
+		8F85BA891822F9B24DC38D7E /* Pods-BantuDicoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClient/Pods-BantuDicoClient.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5D1369ECB4003BCB1B4CE8 /* Pods-BantuDicoClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE709C6A70075B3D5A77D667 /* Pods_BantuDicoClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BantuDicoClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048962C631B68F3A8A00152 /* Pods_BantuDicoClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BantuDicoClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D690009507AC0232BA7C48D /* Pods_BantuDicoClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E159B812035EA1E001B9FD6 /* BantuDicoClient.framework in Frameworks */,
+				5535BC7CC82F153CB1FC2B23 /* Pods_BantuDicoClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				1E159B792035EA1E001B9FD6 /* BantuDicoClient */,
 				1E159B842035EA1E001B9FD6 /* BantuDicoClientTests */,
 				1E159B782035EA1E001B9FD6 /* Products */,
+				1E5CA1B3D8091F28615DA3DC /* Pods */,
+				63966F2D2DA26F903A03C33E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +106,26 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		1E5CA1B3D8091F28615DA3DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F85BA891822F9B24DC38D7E /* Pods-BantuDicoClient.debug.xcconfig */,
+				3695F89FD6546EB38A849377 /* Pods-BantuDicoClient.release.xcconfig */,
+				9D5D1369ECB4003BCB1B4CE8 /* Pods-BantuDicoClientTests.debug.xcconfig */,
+				20CE86E9BDE04E5D468A0839 /* Pods-BantuDicoClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63966F2D2DA26F903A03C33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F048962C631B68F3A8A00152 /* Pods_BantuDicoClient.framework */,
+				DE709C6A70075B3D5A77D667 /* Pods_BantuDicoClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -112,10 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E159B8B2035EA1E001B9FD6 /* Build configuration list for PBXNativeTarget "BantuDicoClient" */;
 			buildPhases = (
+				5C0FB7EFAAEC7C00C19F67B1 /* [CP] Check Pods Manifest.lock */,
 				1E159B722035EA1E001B9FD6 /* Sources */,
 				1E159B732035EA1E001B9FD6 /* Frameworks */,
 				1E159B742035EA1E001B9FD6 /* Headers */,
 				1E159B752035EA1E001B9FD6 /* Resources */,
+				3170CD22E26C78F39016ECDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E159B8E2035EA1E001B9FD6 /* Build configuration list for PBXNativeTarget "BantuDicoClientTests" */;
 			buildPhases = (
+				CE2FC1462291AA3E11BEDD7B /* [CP] Check Pods Manifest.lock */,
 				1E159B7C2035EA1E001B9FD6 /* Sources */,
 				1E159B7D2035EA1E001B9FD6 /* Frameworks */,
 				1E159B7E2035EA1E001B9FD6 /* Resources */,
+				6004F8E84534ACFD8C5F71F7 /* [CP] Embed Pods Frameworks */,
+				78F424877DD275253DE9120E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +235,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3170CD22E26C78F39016ECDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BantuDicoClient/Pods-BantuDicoClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0FB7EFAAEC7C00C19F67B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BantuDicoClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6004F8E84534ACFD8C5F71F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BantuDicoAlamofireApiClient/BantuDicoAlamofireApiClient.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BantuDicoAlamofireApiClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F424877DD275253DE9120E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2FC1462291AA3E11BEDD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BantuDicoClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E159B722035EA1E001B9FD6 /* Sources */ = {
@@ -341,6 +471,7 @@
 		};
 		1E159B8C2035EA1E001B9FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F85BA891822F9B24DC38D7E /* Pods-BantuDicoClient.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +494,7 @@
 		};
 		1E159B8D2035EA1E001B9FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3695F89FD6546EB38A849377 /* Pods-BantuDicoClient.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +517,7 @@
 		};
 		1E159B8F2035EA1E001B9FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5D1369ECB4003BCB1B4CE8 /* Pods-BantuDicoClientTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89Q8W4SDG5;
@@ -399,6 +532,7 @@
 		};
 		1E159B902035EA1E001B9FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CE86E9BDE04E5D468A0839 /* Pods-BantuDicoClientTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89Q8W4SDG5;
