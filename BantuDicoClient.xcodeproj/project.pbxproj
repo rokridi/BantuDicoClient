@@ -10,6 +10,10 @@
 		1E159B812035EA1E001B9FD6 /* BantuDicoClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E159B772035EA1E001B9FD6 /* BantuDicoClient.framework */; };
 		1E159B862035EA1E001B9FD6 /* BantuDicoClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B852035EA1E001B9FD6 /* BantuDicoClientTests.swift */; };
 		1E159B882035EA1E001B9FD6 /* BantuDicoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E159B7A2035EA1E001B9FD6 /* BantuDicoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E159B962035F004001B9FD6 /* BDClientWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B922035F004001B9FD6 /* BDClientWord.swift */; };
+		1E159B972035F004001B9FD6 /* BDClientStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B932035F004001B9FD6 /* BDClientStorage.swift */; };
+		1E159B982035F004001B9FD6 /* BDClientApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B942035F004001B9FD6 /* BDClientApiClient.swift */; };
+		1E159B992035F004001B9FD6 /* BDClientLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E159B952035F004001B9FD6 /* BDClientLanguage.swift */; };
 		5535BC7CC82F153CB1FC2B23 /* Pods_BantuDicoClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE709C6A70075B3D5A77D667 /* Pods_BantuDicoClientTests.framework */; };
 		7D690009507AC0232BA7C48D /* Pods_BantuDicoClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048962C631B68F3A8A00152 /* Pods_BantuDicoClient.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +35,10 @@
 		1E159B802035EA1E001B9FD6 /* BantuDicoClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BantuDicoClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E159B852035EA1E001B9FD6 /* BantuDicoClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuDicoClientTests.swift; sourceTree = "<group>"; };
 		1E159B872035EA1E001B9FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E159B922035F004001B9FD6 /* BDClientWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDClientWord.swift; sourceTree = "<group>"; };
+		1E159B932035F004001B9FD6 /* BDClientStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDClientStorage.swift; sourceTree = "<group>"; };
+		1E159B942035F004001B9FD6 /* BDClientApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDClientApiClient.swift; sourceTree = "<group>"; };
+		1E159B952035F004001B9FD6 /* BDClientLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDClientLanguage.swift; sourceTree = "<group>"; };
 		20CE86E9BDE04E5D468A0839 /* Pods-BantuDicoClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClientTests/Pods-BantuDicoClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		3695F89FD6546EB38A849377 /* Pods-BantuDicoClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClient/Pods-BantuDicoClient.release.xcconfig"; sourceTree = "<group>"; };
 		8F85BA891822F9B24DC38D7E /* Pods-BantuDicoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BantuDicoClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BantuDicoClient/Pods-BantuDicoClient.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,8 +91,8 @@
 		1E159B792035EA1E001B9FD6 /* BantuDicoClient */ = {
 			isa = PBXGroup;
 			children = (
-				1E159B912035EA40001B9FD6 /* Protocols */,
 				1E159B7A2035EA1E001B9FD6 /* BantuDicoClient.h */,
+				1E159B912035EA40001B9FD6 /* Protocols */,
 				1E159B7B2035EA1E001B9FD6 /* Info.plist */,
 			);
 			path = BantuDicoClient;
@@ -102,6 +110,10 @@
 		1E159B912035EA40001B9FD6 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				1E159B942035F004001B9FD6 /* BDClientApiClient.swift */,
+				1E159B932035F004001B9FD6 /* BDClientStorage.swift */,
+				1E159B952035F004001B9FD6 /* BDClientLanguage.swift */,
+				1E159B922035F004001B9FD6 /* BDClientWord.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					1E159B762035EA1E001B9FD6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					1E159B7F2035EA1E001B9FD6 = {
@@ -334,6 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E159B992035F004001B9FD6 /* BDClientLanguage.swift in Sources */,
+				1E159B962035F004001B9FD6 /* BDClientWord.swift in Sources */,
+				1E159B982035F004001B9FD6 /* BDClientApiClient.swift in Sources */,
+				1E159B972035F004001B9FD6 /* BDClientStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F85BA891822F9B24DC38D7E /* Pods-BantuDicoClient.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -487,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rokridi.BantuDicoClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3695F89FD6546EB38A849377 /* Pods-BantuDicoClient.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -519,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D5D1369ECB4003BCB1B4CE8 /* Pods-BantuDicoClientTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89Q8W4SDG5;
 				INFOPLIST_FILE = BantuDicoClientTests/Info.plist;
@@ -534,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20CE86E9BDE04E5D468A0839 /* Pods-BantuDicoClientTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89Q8W4SDG5;
 				INFOPLIST_FILE = BantuDicoClientTests/Info.plist;
