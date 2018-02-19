@@ -11,7 +11,7 @@ import Foundation
 typealias BDApiTranslationCompletionHandler = ([BDClientWord]?, Error?) -> Void
 typealias BDApiLanguagesCompletionHandler = ([BDClientLanguage]?, Error?) -> Void
 
-protocol BDClientApiClient: class {
+protocol BDApiClient: class {
     func translate(word: String, sourceLanguage: String, destinationLanguage: String, queue: DispatchQueue?, completion: BDApiTranslationCompletionHandler?) -> URLSessionTask?
     func fetchSupportedLanguages(queue: DispatchQueue?, completion: BDApiLanguagesCompletionHandler?) -> URLSessionTask?
 }

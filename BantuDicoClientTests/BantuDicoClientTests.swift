@@ -9,9 +9,9 @@
 import Quick
 import Nimble
 import OHHTTPStubs
+import BantuDicoAlamofireApiClient
 
 @testable import BantuDicoClient
 
 class BantuDicoClientTests: QuickSpec {
-        
 }

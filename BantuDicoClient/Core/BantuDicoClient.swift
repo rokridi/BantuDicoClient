@@ -13,9 +13,9 @@ public typealias BDCLanguagesCompletionHandler = ([BDCLanguage]?, Error?) -> Voi
 
 public class BantuDicoClient {
     
-    private var apiClient: BDClientApiClient
+    private var apiClient: BDApiClient
     
-    init(apiClient: BDClientApiClient) {
+    init(apiClient: BDApiClient) {
         self.apiClient = apiClient
     }
 }

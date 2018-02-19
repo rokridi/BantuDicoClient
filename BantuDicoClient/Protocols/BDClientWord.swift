@@ -11,5 +11,4 @@ import Foundation
 protocol BDClientWord {
     var identifier: Int {get}
     var word: String {get}
-    var language: String {get}
 }
